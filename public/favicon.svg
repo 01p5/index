@@ -1,4 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <rect width="32" height="32" rx="6" fill="#0a0a0c"/>
-  <path d="M8 22 L8 10 L12 10 L16 18 L20 10 L24 10 L24 22" stroke="#00ff88" stroke-width="2.25" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- outer triangle -->
+  <path d="M16 5 L27 26 L5 26 Z"
+        stroke="#00ff88" stroke-width="2.25" fill="none"
+        stroke-linejoin="round"/>
+  <!-- inner triangle -->
+  <path d="M16 14 L21 23 L11 23 Z"
+        stroke="#00ff88" stroke-width="1.75" fill="none"
+        stroke-linejoin="round"/>
 </svg>
