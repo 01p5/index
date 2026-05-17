@@ -1,0 +1,8 @@
+services:
+  landing:
+    build: .
+    image: olympus-landing:latest
+    container_name: olympus-landing
+    restart: unless-stopped
+    ports:
+      - "5001:5001"
